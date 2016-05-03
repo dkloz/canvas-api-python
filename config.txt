@@ -1,0 +1,5 @@
+[info]
+token: 4407~K6J3F2b1wqZcazZarbfHxByk2J0jTzU70vnkJs  ;# fill with the long string that canvas gives you - this wont work
+canvas_instance_url: https://canvas.eee.uci.edu 	;# fill your own, from the url in your canvas windown in your browser
+course_id: 1112										;# you should fill your own - look at the url again
+api_prefix = /api/v1
