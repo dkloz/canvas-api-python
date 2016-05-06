@@ -12,7 +12,7 @@ For non-computer science people, it is an easy way to 'talk' to the canvas serve
 
 
 #How to use (download data for a course)
-0. Download this directory.
+0. Download this directory (Download ZIP button in the top right).
 1. Install Python. To do that easily, simply [install anaconda] (https://docs.continuum.io/anaconda/install)
 1. Have Access to the data. In order for this to work, the person creating the token, should be a TA or a Professor
 3. Edit the **config.txt** file. 
