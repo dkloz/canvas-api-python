@@ -11,17 +11,19 @@ For non-computer science people, it is an easy way to 'talk' to the canvas serve
 
 
 
-#How to use 
+#How to use (download data for a course)
+0. Download this directory.
+1. Install Python. To do that easily, simply [install anaconda] (https://docs.continuum.io/anaconda/install)
 1. Have Access to the data. In order for this to work, the person creating the token, should be a TA or a Professor
-2. Generate an Authorization Token through Canvas 
 3. Edit the **config.txt** file. 
-	* Paste your own access token
+	* Paste your own access token (instructions on how to generate one are below)
 	* Change the url to reflect the url of your school (what is now https://canvas.eee.uci.edu)
-	* Change the course id. (To find this, log in canvas, go to the course, look at the url - its the number after /courses/)
-4. Run the Code 
-	* Go in the directory and type
+	* Change the course id. (To find this, log in canvas, go to the course you would like to download, look at the url in your browser - its the number after /courses/)
+4. Run the Code
+	* Open a Terminal 
+	* `cd` in the directory that you downloaded from here, and type
 	* `python CourseCrawler.py`
-5. Explore the data under the data directory. 
+5. Explore the data under the `data` directory. 
 6. Data Party :sunglasses: :musical_note: :computer: :bar_chart: 
 
 
