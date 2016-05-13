@@ -13,7 +13,7 @@ For non-computer science people, it is an easy way to 'talk' to the canvas serve
 
 #How to use (download data for a course)
 0. Download this directory (Download ZIP button in the top right).
-1. Install Python. To do that easily, simply [install anaconda] (https://docs.continuum.io/anaconda/install)
+1. Install Python. To do that easily, simply [install anaconda](https://docs.continuum.io/anaconda/install)
 1. Have Access to the data. In order for this to work, the person creating the token, should be a TA or a Professor
 3. Edit the **config.txt** file. 
 	* Paste your own access token (instructions on how to generate one are below)
@@ -29,16 +29,16 @@ For non-computer science people, it is an easy way to 'talk' to the canvas serve
 
 #Generate an Authorization Token in Canvas LMS
 Login to your instance on canvas, and go to **Account->Settings**
-![settings](./img/settings.png)
+![settings](https://cloud.githubusercontent.com/assets/7371615/15256237/78e775f2-18f5-11e6-9b19-14c300489b28.png)
 
 Scroll Down and click on **New Access Token**
-![settings](./img/new_access.png)
+![new access token](https://cloud.githubusercontent.com/assets/7371615/15256240/78e86138-18f5-11e6-8720-5e60e6dfc050.png)
 
 Set a time limit for your token. (Optional, but wise in case it gets compromised)
-![settings](./img/time_limit.png)
+![time limit](https://cloud.githubusercontent.com/assets/7371615/15256239/78e7cbb0-18f5-11e6-8cc4-375f288be5e2.png)
 
 Click on **generate**
-![settings](./img/generate.png)
+![generate](https://cloud.githubusercontent.com/assets/7371615/15256238/78e7bad0-18f5-11e6-84d8-e486716c43cc.png)
 
 **Copy** your token string (this very large weird letters and numbers)
-![settings](./img/copy_token.png)
+![copy](https://cloud.githubusercontent.com/assets/7371615/15256236/78cdd4bc-18f5-11e6-9fe6-c0d5fb40290f.png)
