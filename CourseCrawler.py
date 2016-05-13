@@ -144,7 +144,7 @@ class CourseCrawler(object):
         gradebook = gradebook.tolist()
         gradebook.insert(0, max_scores)  # add max scores
         gradebook.insert(0, names)  # add titles
-        save_pickle('./data/%s/gradebook.pkl' % self.course_id, gradebook)
+        save_pickle('./data/%s/gradebook.pkl' % self.course_name, gradebook)
 
         save_csv(filename, gradebook)
 
